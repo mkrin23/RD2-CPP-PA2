@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build",
+  "command": "/usr/bin/clang++-14   -g -o CMakeFiles/Aktiekurs.dir/main.cpp.o -c \"/home/marius/Documents/RD2-CPP/PA2 - Aktie/main.cpp\"",
+  "file": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/main.cpp"
+}
+]

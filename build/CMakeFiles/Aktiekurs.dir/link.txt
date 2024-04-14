@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -g -rdynamic CMakeFiles/Aktiekurs.dir/main.cpp.o -o Aktiekurs 
