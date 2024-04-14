@@ -83,17 +83,81 @@ CMakeFiles/Aktiekurs.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aktiekurs.dir/main.cpp.s"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marius/Documents/RD2-CPP/PA2 - Aktie/main.cpp" -o CMakeFiles/Aktiekurs.dir/main.cpp.s
 
+CMakeFiles/Aktiekurs.dir/DateTime.cpp.o: CMakeFiles/Aktiekurs.dir/flags.make
+CMakeFiles/Aktiekurs.dir/DateTime.cpp.o: ../DateTime.cpp
+CMakeFiles/Aktiekurs.dir/DateTime.cpp.o: CMakeFiles/Aktiekurs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Aktiekurs.dir/DateTime.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aktiekurs.dir/DateTime.cpp.o -MF CMakeFiles/Aktiekurs.dir/DateTime.cpp.o.d -o CMakeFiles/Aktiekurs.dir/DateTime.cpp.o -c "/home/marius/Documents/RD2-CPP/PA2 - Aktie/DateTime.cpp"
+
+CMakeFiles/Aktiekurs.dir/DateTime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Aktiekurs.dir/DateTime.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marius/Documents/RD2-CPP/PA2 - Aktie/DateTime.cpp" > CMakeFiles/Aktiekurs.dir/DateTime.cpp.i
+
+CMakeFiles/Aktiekurs.dir/DateTime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aktiekurs.dir/DateTime.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marius/Documents/RD2-CPP/PA2 - Aktie/DateTime.cpp" -o CMakeFiles/Aktiekurs.dir/DateTime.cpp.s
+
+CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o: CMakeFiles/Aktiekurs.dir/flags.make
+CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o: ../TradeInfo.cpp
+CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o: CMakeFiles/Aktiekurs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o -MF CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o.d -o CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o -c "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeInfo.cpp"
+
+CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeInfo.cpp" > CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.i
+
+CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeInfo.cpp" -o CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.s
+
+CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o: CMakeFiles/Aktiekurs.dir/flags.make
+CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o: ../TradeLoader.cpp
+CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o: CMakeFiles/Aktiekurs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o -MF CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o.d -o CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o -c "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeLoader.cpp"
+
+CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeLoader.cpp" > CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.i
+
+CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeLoader.cpp" -o CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.s
+
+CMakeFiles/Aktiekurs.dir/Stock.cpp.o: CMakeFiles/Aktiekurs.dir/flags.make
+CMakeFiles/Aktiekurs.dir/Stock.cpp.o: ../Stock.cpp
+CMakeFiles/Aktiekurs.dir/Stock.cpp.o: CMakeFiles/Aktiekurs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Aktiekurs.dir/Stock.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aktiekurs.dir/Stock.cpp.o -MF CMakeFiles/Aktiekurs.dir/Stock.cpp.o.d -o CMakeFiles/Aktiekurs.dir/Stock.cpp.o -c "/home/marius/Documents/RD2-CPP/PA2 - Aktie/Stock.cpp"
+
+CMakeFiles/Aktiekurs.dir/Stock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Aktiekurs.dir/Stock.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marius/Documents/RD2-CPP/PA2 - Aktie/Stock.cpp" > CMakeFiles/Aktiekurs.dir/Stock.cpp.i
+
+CMakeFiles/Aktiekurs.dir/Stock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aktiekurs.dir/Stock.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marius/Documents/RD2-CPP/PA2 - Aktie/Stock.cpp" -o CMakeFiles/Aktiekurs.dir/Stock.cpp.s
+
 # Object files for target Aktiekurs
 Aktiekurs_OBJECTS = \
-"CMakeFiles/Aktiekurs.dir/main.cpp.o"
+"CMakeFiles/Aktiekurs.dir/main.cpp.o" \
+"CMakeFiles/Aktiekurs.dir/DateTime.cpp.o" \
+"CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o" \
+"CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o" \
+"CMakeFiles/Aktiekurs.dir/Stock.cpp.o"
 
 # External object files for target Aktiekurs
 Aktiekurs_EXTERNAL_OBJECTS =
 
 Aktiekurs: CMakeFiles/Aktiekurs.dir/main.cpp.o
+Aktiekurs: CMakeFiles/Aktiekurs.dir/DateTime.cpp.o
+Aktiekurs: CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o
+Aktiekurs: CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o
+Aktiekurs: CMakeFiles/Aktiekurs.dir/Stock.cpp.o
 Aktiekurs: CMakeFiles/Aktiekurs.dir/build.make
 Aktiekurs: CMakeFiles/Aktiekurs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Aktiekurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Aktiekurs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Aktiekurs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

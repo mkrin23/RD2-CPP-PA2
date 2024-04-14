@@ -837,12 +837,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/Aktiekurs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=1,2 "Built target Aktiekurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target Aktiekurs"
 .PHONY : CMakeFiles/Aktiekurs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aktiekurs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Aktiekurs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build/CMakeFiles" 0
 .PHONY : CMakeFiles/Aktiekurs.dir/rule

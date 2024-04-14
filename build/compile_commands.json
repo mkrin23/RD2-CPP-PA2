@@ -3,5 +3,25 @@
   "directory": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build",
   "command": "/usr/bin/clang++-14   -g -o CMakeFiles/Aktiekurs.dir/main.cpp.o -c \"/home/marius/Documents/RD2-CPP/PA2 - Aktie/main.cpp\"",
   "file": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/main.cpp"
+},
+{
+  "directory": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build",
+  "command": "/usr/bin/clang++-14   -g -o CMakeFiles/Aktiekurs.dir/DateTime.cpp.o -c \"/home/marius/Documents/RD2-CPP/PA2 - Aktie/DateTime.cpp\"",
+  "file": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/DateTime.cpp"
+},
+{
+  "directory": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build",
+  "command": "/usr/bin/clang++-14   -g -o CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o -c \"/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeInfo.cpp\"",
+  "file": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeInfo.cpp"
+},
+{
+  "directory": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build",
+  "command": "/usr/bin/clang++-14   -g -o CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o -c \"/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeLoader.cpp\"",
+  "file": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/TradeLoader.cpp"
+},
+{
+  "directory": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/build",
+  "command": "/usr/bin/clang++-14   -g -o CMakeFiles/Aktiekurs.dir/Stock.cpp.o -c \"/home/marius/Documents/RD2-CPP/PA2 - Aktie/Stock.cpp\"",
+  "file": "/home/marius/Documents/RD2-CPP/PA2 - Aktie/Stock.cpp"
 }
 ]

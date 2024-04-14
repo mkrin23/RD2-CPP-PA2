@@ -523,6 +523,102 @@ Aktiekurs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/build
 .PHONY : Aktiekurs/fast
 
+DateTime.o: DateTime.cpp.o
+.PHONY : DateTime.o
+
+# target to build an object file
+DateTime.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/DateTime.cpp.o
+.PHONY : DateTime.cpp.o
+
+DateTime.i: DateTime.cpp.i
+.PHONY : DateTime.i
+
+# target to preprocess a source file
+DateTime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/DateTime.cpp.i
+.PHONY : DateTime.cpp.i
+
+DateTime.s: DateTime.cpp.s
+.PHONY : DateTime.s
+
+# target to generate assembly for a file
+DateTime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/DateTime.cpp.s
+.PHONY : DateTime.cpp.s
+
+Stock.o: Stock.cpp.o
+.PHONY : Stock.o
+
+# target to build an object file
+Stock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/Stock.cpp.o
+.PHONY : Stock.cpp.o
+
+Stock.i: Stock.cpp.i
+.PHONY : Stock.i
+
+# target to preprocess a source file
+Stock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/Stock.cpp.i
+.PHONY : Stock.cpp.i
+
+Stock.s: Stock.cpp.s
+.PHONY : Stock.s
+
+# target to generate assembly for a file
+Stock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/Stock.cpp.s
+.PHONY : Stock.cpp.s
+
+TradeInfo.o: TradeInfo.cpp.o
+.PHONY : TradeInfo.o
+
+# target to build an object file
+TradeInfo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o
+.PHONY : TradeInfo.cpp.o
+
+TradeInfo.i: TradeInfo.cpp.i
+.PHONY : TradeInfo.i
+
+# target to preprocess a source file
+TradeInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.i
+.PHONY : TradeInfo.cpp.i
+
+TradeInfo.s: TradeInfo.cpp.s
+.PHONY : TradeInfo.s
+
+# target to generate assembly for a file
+TradeInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.s
+.PHONY : TradeInfo.cpp.s
+
+TradeLoader.o: TradeLoader.cpp.o
+.PHONY : TradeLoader.o
+
+# target to build an object file
+TradeLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o
+.PHONY : TradeLoader.cpp.o
+
+TradeLoader.i: TradeLoader.cpp.i
+.PHONY : TradeLoader.i
+
+# target to preprocess a source file
+TradeLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.i
+.PHONY : TradeLoader.cpp.i
+
+TradeLoader.s: TradeLoader.cpp.s
+.PHONY : TradeLoader.s
+
+# target to generate assembly for a file
+TradeLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aktiekurs.dir/build.make CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.s
+.PHONY : TradeLoader.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -587,6 +683,18 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... Aktiekurs"
+	@echo "... DateTime.o"
+	@echo "... DateTime.i"
+	@echo "... DateTime.s"
+	@echo "... Stock.o"
+	@echo "... Stock.i"
+	@echo "... Stock.s"
+	@echo "... TradeInfo.o"
+	@echo "... TradeInfo.i"
+	@echo "... TradeInfo.s"
+	@echo "... TradeLoader.o"
+	@echo "... TradeLoader.i"
+	@echo "... TradeLoader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
