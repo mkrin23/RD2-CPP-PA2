@@ -1,47 +1,50 @@
-#ifndef STOCK_H
-
-#define STOCK_H
+#ifndef DATETIME_H
+#define DATETIME_H
 
 #include <string>
 
-#include <vector>
-
-#include "DateTime.h"
-
-#include "TradeInfo.h"
-
-class Stock
-
-{
-
+class DateTime{
 public:
 
-Stock();
+DateTime();
 
-Stock(const std::vector<TradeInfo>& tradeInfo) : mTradeInfo(tradeInfo) {}
+DateTime(unsigned int year, unsigned int month, unsigned int day, unsigned int hour, unsigned int minute, unsigned int second, int timezone)
+	: mYear(year), mMonth(month), mDay(day), mHour(hour), mMinute(minute), mSecond(second), mTimezone(timezone) {
+}
 
-std::vector<TradeInfo> getTrades(unsigned int interval = TRADE_INTERVAL_DAY);
+DateTime(const std::string& dateTime) { parse(dateTime); }
 
-std::vector<TradeInfo> getAllTradeInfo() const;
+//unsigned int getDayOfWeek() const;
 
-void setAllTradeInfo(const std::vector<TradeInfo> &tradeInfo);
+void parse(const std::string& dateTime);
 
-static const unsigned int TRADE_INTERVAL_SECOND = 1; // Do not implement
+unsigned int getYear() const;
+void setYear(unsigned int year);
 
-static const unsigned int TRADE_INTERVAL_MINUTE = 2;
+unsigned int getMonth() const;
+void setMonth(unsigned int month);
 
-static const unsigned int TRADE_INTERVAL_HOUR = 3;
+unsigned int getDay() const;
+void setDay(unsigned int day);
 
-static const unsigned int TRADE_INTERVAL_2HOUR = 4;
+unsigned int getHour() const;
+void setHour(unsigned int hour);
 
-static const unsigned int TRADE_INTERVAL_4HOUR = 5;
+unsigned int getMinute() const;
+void setMinute(unsigned int minute);
 
-static const unsigned int TRADE_INTERVAL_DAY = 6;
+unsigned int getSecond() const;
+void setSecond(unsigned int second);
+
+int getTimezone() const;
+void setTimezone(int value);
 
 private:
 
-std::vector<TradeInfo> mTradeInfo;
+unsigned int mYear = 0, mMonth = 0, mDay = 0, mHour = 0, mMinute = 0, mSecond = 0;
+
+int mTimezone = 0;
 
 };
 
-#endif // STOCK_H 
+#endif // DATETIME_H 
