@@ -1,1 +1,0 @@
-/usr/bin/x86_64-linux-gnu-g++-11 -DQT_QML_DEBUG -g -rdynamic CMakeFiles/Aktiekurs.dir/main.cpp.o CMakeFiles/Aktiekurs.dir/DateTime.cpp.o CMakeFiles/Aktiekurs.dir/TradeInfo.cpp.o CMakeFiles/Aktiekurs.dir/TradeLoader.cpp.o CMakeFiles/Aktiekurs.dir/Stock.cpp.o -o Aktiekurs 
