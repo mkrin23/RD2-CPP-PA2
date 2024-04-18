@@ -1,4 +1,5 @@
 #include "TradeInfo.h"
+#include "DateTime.h"
 
 TradeInfo::TradeInfo(){}
 
