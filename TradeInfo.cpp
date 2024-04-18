@@ -44,7 +44,7 @@ void TradeInfo::setVolume(double volume){
     mVolume = volume;
 }
 
-double TradeInfo::getDateTime() const{
+DateTime TradeInfo::getDateTime() const{
     return mDateTime;
 }
 

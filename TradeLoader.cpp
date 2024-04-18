@@ -2,6 +2,8 @@
 #include <iostream>
 #include <fstream>
 
+TradeLoader::TradeLoader(){}
+
 void TradeLoader::load(const std::string& filename){
     std::string data;
 
