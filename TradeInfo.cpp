@@ -1,5 +1,8 @@
 #include "TradeInfo.h"
 
+TradeInfo::TradeInfo(){}
+
+
 double TradeInfo::getOpen() const{
     return mOpen;
 }
