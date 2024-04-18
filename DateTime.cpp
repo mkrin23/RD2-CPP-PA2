@@ -53,7 +53,4 @@ void DateTime::setSecond(unsigned int second){mSecond = second;}
 
 int DateTime::getTimezone() const {return mTimezone;}
 void DateTime::setTimezone(int value){mTimezone = value;}
-=======
-Hej
-Hej marius
->>>>>>> 10d37a011718a8e08fff45ce26497ef2b959f348
+
