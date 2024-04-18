@@ -3,36 +3,33 @@
 #include "DateTime.h"
 
 class TradeInfo{
+    public:
+        TradeInfo();
+        TradeInfo(const DateTime& dateTime, double open, double high, double low, double close, double volume)
+        : mDateTime(dateTime), mOpen(open), mHigh(high), mLow(low), mClose(close), mVolume(volume){}
 
-public:
+        double getOpen() const;
+        void setOpen(double open);
 
-TradeInfo();
-TradeInfo(const DateTime& dateTime, double open, double high, double low, double close, double volume)
-: mDateTime(dateTime), mOpen(open), mHigh(high), mLow(low), mClose(close), mVolume(volume){}
+        double getHigh() const;
+        void setHigh(double high);
 
-double getOpen() const;
-void setOpen(double open);
+        double getLow() const;
+        void setLow(double low);
 
-double getHigh() const;
-void setHigh(double high);
+        double getClose() const;
+        void setClose(double close);
 
-double getLow() const;
-void setLow(double low);
+        double getVolume() const;
+        void setVolume(double volume);
 
-double getClose() const;
-void setClose(double close);
-
-double getVolume() const;
-void setVolume(double volume);
-
-DateTime getDateTime() const;
-void setDateTime(const DateTime &dateTime);
+        DateTime getDateTime() const;
+        void setDateTime(const DateTime &dateTime);
 
 private:
+    DateTime mDateTime;
 
-DateTime mDateTime;
-
-double mOpen = 0, mHigh = 0, mLow = 0, mClose = 0, mVolume = 0;
+    double mOpen = 0, mHigh = 0, mLow = 0, mClose = 0, mVolume = 0;
 
 };
 

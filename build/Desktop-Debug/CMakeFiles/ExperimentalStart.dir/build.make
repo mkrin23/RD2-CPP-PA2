@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikolas/PA2CPP
+CMAKE_SOURCE_DIR = /home/christian/Documents/cpp/PAA2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikolas/PA2CPP/build/Desktop-Debug
+CMAKE_BINARY_DIR = /home/christian/Documents/cpp/PAA2/build/Desktop-Debug
 
 # Utility rule file for ExperimentalStart.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	cd /home/nikolas/PA2CPP/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikolas/PA2CPP /home/nikolas/PA2CPP /home/nikolas/PA2CPP/build/Desktop-Debug /home/nikolas/PA2CPP/build/Desktop-Debug /home/nikolas/PA2CPP/build/Desktop-Debug/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/christian/Documents/cpp/PAA2/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/christian/Documents/cpp/PAA2 /home/christian/Documents/cpp/PAA2 /home/christian/Documents/cpp/PAA2/build/Desktop-Debug /home/christian/Documents/cpp/PAA2/build/Desktop-Debug /home/christian/Documents/cpp/PAA2/build/Desktop-Debug/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

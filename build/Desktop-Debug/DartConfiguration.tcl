@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/nikolas/PA2CPP
-BuildDirectory: /home/nikolas/PA2CPP/build/Desktop-Debug
+SourceDirectory: /home/christian/Documents/cpp/PAA2
+BuildDirectory: /home/christian/Documents/cpp/PAA2/build/Desktop-Debug
 
 # Where to place the cost data store
 CostDataFile: 
@@ -14,7 +14,7 @@ CostDataFile:
 Site: Ubuntu
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-x86_64-linux-gnu-g++-11
+BuildName: Linux-x86_64-linux-gnu-g++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/nikolas/PA2CPP"
+ConfigureCommand: "/usr/bin/cmake" "/home/christian/Documents/cpp/PAA2"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,7 +62,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/x86_64-linux-gnu-g++-11
+Compiler: /usr/bin/x86_64-linux-gnu-g++
 CompilerVersion: 11.4.0
 
 # Dynamic analysis (MemCheck)
