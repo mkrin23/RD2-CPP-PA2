@@ -4,6 +4,7 @@
 #include "DateTime.h"
 #include "TradeLoader.h"
 #include "Stock.h"
+#include "TradeInfo.h"
 
 
 void printTrade(const TradeInfo& ti) {
@@ -72,7 +73,6 @@ int main() {
     std::cout << "-----------------------" << std::endl;
     printTrades(openDay);
     std::cout << std::endl;
-
 
     return 0;
 }

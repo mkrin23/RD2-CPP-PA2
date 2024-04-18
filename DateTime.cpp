@@ -1,6 +1,8 @@
 #include "DateTime.h"
 #include <string>
 
+DateTime::DateTime(){};
+
 //parse metoden
 void DateTime::parse(const std::string& dateTime){
     //extractes fra string og omdannes til unsigned int
@@ -53,4 +55,3 @@ void DateTime::setSecond(unsigned int second){mSecond = second;}
 
 int DateTime::getTimezone() const {return mTimezone;}
 void DateTime::setTimezone(int value){mTimezone = value;}
-
