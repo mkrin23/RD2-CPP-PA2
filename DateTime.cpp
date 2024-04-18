@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "DateTime.h"
 #include <string>
 
