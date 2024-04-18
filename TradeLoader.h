@@ -4,29 +4,25 @@
 #include <array>
 #include <string>
 #include <vector>
+
 #include "TradeInfo.h"
 
 class TradeLoader
 {
-
 public:
+    TradeLoader();
 
-TradeLoader();
-void load(const std::string& filename);
+    void load(const std::string& filename);
 
-std::vector<std::array<std::string, 6> > getData() { return mData; }
-std::vector<TradeInfo> getTradeInfo();
+    std::vector<std::array<std::string, 6> > getData() { return mData; }
 
-private:
-
-std::array<std::string, 6> split(const std::string& line, char delim);
+    std::vector<TradeInfo> getTradeInfo();
 
 private:
+    std::array<std::string, 6> split(const std::string& line, char delim);
 
-std::vector<std::array<std::string, 6> > mData;
-
+private:
+    std::vector<std::array<std::string, 6> > mData;
 };
 
 #endif // TRADELOADER_H
-
-
