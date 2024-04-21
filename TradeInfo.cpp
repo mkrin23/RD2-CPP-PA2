@@ -3,7 +3,7 @@
 
 TradeInfo::TradeInfo(){}
 
-
+//set og get metoder
 double TradeInfo::getOpen() const{
     return mOpen;
 }
